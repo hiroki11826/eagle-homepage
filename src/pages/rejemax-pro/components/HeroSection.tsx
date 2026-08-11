@@ -1,11 +1,8 @@
-import { useNavigate } from 'react-router-dom';
-
 interface Props {
   scrollToSection: (id: string) => void;
 }
 
 export default function HeroSection({ scrollToSection }: Props) {
-  const navigate = useNavigate();
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16 md:pt-20">
       <div className="absolute inset-0 bg-gradient-to-b from-gray-900 via-black to-gray-900"></div>

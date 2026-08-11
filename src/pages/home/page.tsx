@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 export default function HomePage() {
@@ -51,7 +51,7 @@ export default function HomePage() {
       } else {
         alert('送信に失敗しました。もう一度お試しください。');
       }
-    } catch (error) {
+    } catch {
       alert('送信エラーが発生しました。しばらくしてから再度お試しください。');
     }
   };
