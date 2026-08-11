@@ -6,7 +6,7 @@ export default function VoicesSection() {
     { icon: 'ri-emotion-happy-line', bg: 'bg-teal-100', iconText: 'text-teal-500', pctText: 'text-teal-500', title: '自信が回復', pct: '94%' },
     { icon: 'ri-heart-line', bg: 'bg-red-100', iconText: 'text-red-500', pctText: 'text-red-500', title: 'パートナーとの関係改善', pct: '88%' },
     { icon: 'ri-capsule-line', bg: 'bg-indigo-100', iconText: 'text-indigo-500', pctText: 'text-indigo-500', title: '男性機能のお悩み薬の使用量が減少', pct: '76%' },
-    { icon: 'ri-shield-check-line', bg: 'bg-gray-100', iconText: 'text-gray-500', pctText: 'text-gray-500', title: '副作用なし', pct: '100%' },
+    { icon: 'ri-shield-check-line', bg: 'bg-gray-100', iconText: 'text-gray-500', pctText: 'text-gray-500', title: '身体への負担なし', pct: '100%' },
     { icon: 'ri-repeat-line', bg: 'bg-pink-100', iconText: 'text-pink-500', pctText: 'text-pink-500', title: '継続利用を希望', pct: '91%' },
   ];
 
@@ -50,42 +50,42 @@ export default function VoicesSection() {
             {[
               {
                 age: '20代',
-                img: 'https://rejemax-pro.com/wp-content/themes/linkjapan/assets/images/section-11/mask-group.png',
+                img: '/images/rejemax-pro/mask-group.webp',
                 stars: 5,
                 text: '使用直後にムズムズする感覚あり。3日後にS◯Xした時にいつも以上に硬くなって驚いた。直後ムズムズした。翌日の朝立ちが凄かった。勃起時の張りが今まで以上で驚いた。',
                 tag: '硬さ向上・朝立ち復活',
               },
               {
                 age: '30代',
-                img: 'https://rejemax-pro.com/wp-content/themes/linkjapan/assets/images/section-11/mask-group.png',
+                img: '/images/rejemax-pro/mask-group.webp',
                 stars: 5,
                 text: '男性機能のお悩み薬を飲んでいたが副作用が嫌で悩んでいた。REJEMAX PROを5回受けたら薬なしでも問題なくなった。こんなに変わるとは思わなかった。本当に感謝しています。',
-                tag: '薬不要・根本改善',
+                tag: '薬不要・根本的なケア',
               },
               {
                 age: '40代',
-                img: 'https://rejemax-pro.com/wp-content/themes/linkjapan/assets/images/section-11/mask-group-1.png',
+                img: '/images/rejemax-pro/mask-group-1.webp',
                 stars: 5,
                 text: '数年間、朝立ちしていなかったのが朝立ちするようになった。たまに中折れする時があったのが中折れしなくなった。自信がついた。彼女から大きくなったと言われた。',
                 tag: '朝立ち復活・中折れ改善',
               },
               {
                 age: '50代',
-                img: 'https://rejemax-pro.com/wp-content/themes/linkjapan/assets/images/section-11/mask-group-2.png',
+                img: '/images/rejemax-pro/mask-group-2.webp',
                 stars: 5,
                 text: '今もS◯Xは問題なく出来るが硬さが足りなくなったので体験。効果あり。サイズUPしたような気がするので定期的にしたい。朝立ちし始めたので継続したい。',
                 tag: '硬さ向上・サイズアップ',
               },
               {
                 age: '60代',
-                img: 'https://rejemax-pro.com/wp-content/themes/linkjapan/assets/images/section-11/mask-group-2.png',
+                img: '/images/rejemax-pro/mask-group-2.webp',
                 stars: 4,
                 text: '年齢的に諦めていたが、友人に勧められて試してみた。5回の施術後、若い頃のような感覚が戻ってきた気がする。妻との関係も改善され、生活の質が上がった。',
                 tag: '機能回復・関係改善',
               },
               {
                 age: '45代',
-                img: 'https://rejemax-pro.com/wp-content/themes/linkjapan/assets/images/section-11/mask-group-1.png',
+                img: '/images/rejemax-pro/mask-group-1.webp',
                 stars: 5,
                 text: '糖尿病の影響で男性機能のお悩みになり、薬も効きにくくなっていた。REJEMAX PROを試したところ、薬の効きが格段に良くなった。血流が改善されているのを実感できる。',
                 tag: '男性機能のお悩み薬効果向上・血流改善',
@@ -167,7 +167,7 @@ export default function VoicesSection() {
               {[
                 { icon: 'ri-stethoscope-line', title: '医療技術から着想', desc: '整形外科・循環器科で実績のある低出力衝撃波技術から着想。安全性に配慮して設計されています。' },
                 { icon: 'ri-user-star-line', title: '医師免許不要', desc: '医療行為ではないため医師免許は不要。研修1時間で習得でき、誰でも同じ品質の施術が可能です。' },
-                { icon: 'ri-heart-pulse-line', title: '副作用報告なし', desc: '全国60店舗以上での導入実績において、重大な副作用の報告はありません。安心してご利用いただけます。' },
+                { icon: 'ri-heart-pulse-line', title: '身体への負担なし', desc: '全国60店舗以上での導入実績において、重大な身体への負担の報告はありません。安心してご利用いただけます。' },
               ].map((item, i) => (
                 <div key={i} className="bg-white rounded-xl p-5 shadow-md text-center">
                   <div className="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-3">

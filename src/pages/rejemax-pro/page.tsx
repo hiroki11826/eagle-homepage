@@ -53,7 +53,7 @@ export default function RejemaxProPage() {
               <img
                 alt="REJEMAX PRO Logo"
                 className="h-10 md:h-12 w-auto object-contain cursor-pointer"
-                src="https://rejemax-pro.com/wp-content/themes/linkjapan/assets/images/section-01/logo-rejemax-pro.png"
+                src="/images/rejemax-pro/logo-rejemax-pro.webp"
                 onClick={() => navigate('/')}
               />
             </div>

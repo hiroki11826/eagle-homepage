@@ -208,7 +208,7 @@ export default function FAQSection({ scrollToSection }: Props) {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
             <div>
               <img
-                src="https://rejemax-pro.com/wp-content/themes/linkjapan/assets/images/section-01/logo-rejemax-pro.png"
+                src="/images/rejemax-pro/logo-rejemax-pro.webp"
                 alt="REJEMAX PRO"
                 className="h-12 w-auto object-contain mb-3"
               />

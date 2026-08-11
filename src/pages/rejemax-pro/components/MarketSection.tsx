@@ -83,6 +83,7 @@ export default function MarketSection() {
               </div>
               <div className="border-t border-gray-200 pt-4">
                 <p className="text-gray-700 leading-relaxed text-center text-sm">日本の成人男性の約<strong className="text-yellow-600">4人に1人</strong>が男性機能にお悩みがあるまたはその予備軍であると言われています</p>
+                <p className="text-gray-500 text-xs text-center mt-3 leading-relaxed">※本マシンは医療機器ではありません。コンディショニング、ケアを目的としたエステ機器です。</p>
               </div>
             </div>
             <div className="bg-white rounded-2xl p-6 shadow-xl">

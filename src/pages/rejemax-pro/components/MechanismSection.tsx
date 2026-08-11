@@ -17,7 +17,7 @@ export default function MechanismSection() {
                 <p className="text-gray-300 text-sm md:text-base leading-relaxed mb-5">REJEMAX PROは、医療分野でも注目されている技術から着想。<br className="md:hidden" />血流環境と反応力にアプローチした男性向けの革新的ケア機器です。</p>
                 <div className="space-y-3">
                   {[
-                    { title: '医療分野でも注目されている技術に着想を得たケアマシ', desc: '整形外科や循環器科で実績のある技術を転用' },
+                    { title: '医療技術から着想を得たケアマシン', desc: '整形外科や循環器科で実績のある技術を転用' },
                     { title: '男性向け専用設計', desc: '海綿体の構造に最適化された照射パターン' },
                     { title: '高い満足度と実績', desc: '全国60店舗以上で導入、多数の改善報告' },
                   ].map((item, i) => (
@@ -129,9 +129,9 @@ export default function MechanismSection() {
                 </thead>
                 <tbody className="text-sm">
                   {[
-                    { item: '根本改善', bad: '一時的な対症療法', good: '血流環境と反応力にアプローチ', badIcon: 'ri-close-circle-fill', goodIcon: 'ri-check-double-line' },
+                    { item: '根本的なケア', bad: '一時的な対症療法', good: '血流環境と反応力にアプローチ', badIcon: 'ri-close-circle-fill', goodIcon: 'ri-check-double-line' },
                     { item: '効果の持続性', bad: '4〜36時間のみ', good: '数ヶ月〜半年以上', badIcon: 'ri-time-line', goodIcon: 'ri-infinity-line' },
-                    { item: '副作用', bad: '頭痛・ほてり・動悸', good: 'ほとんどなし', badIcon: 'ri-alert-line', goodIcon: 'ri-shield-check-line' },
+                    { item: '身体への負担', bad: '頭痛・ほてり・動悸', good: 'ほとんどなし', badIcon: 'ri-alert-line', goodIcon: 'ri-shield-check-line' },
                     { item: '依存性', bad: '継続的な服用が必要', good: '薬に頼らない', badIcon: 'ri-loop-right-line', goodIcon: 'ri-check-line' },
                     { item: '自然な改善', bad: '化学的作用', good: '自然治癒力を活用', badIcon: 'ri-flask-line', goodIcon: 'ri-leaf-line' },
                   ].map((row, i) => (
@@ -171,7 +171,7 @@ export default function MechanismSection() {
             <h3 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 text-center">線形衝撃波療法(REJEMAX)とは</h3>
             <div className="flex flex-col md:flex-row items-center gap-6 mb-6">
               <div className="flex-1">
-                <img alt="衝撃波男性機能のお悩みケアのイメージ" className="w-full h-auto rounded-xl shadow-lg" src="https://rejemax-pro.com/wp-content/themes/linkjapan/assets/images/section-05/section-05-main.png" />
+                <img alt="衝撃波男性機能のお悩みケアのイメージ" className="w-full h-auto rounded-xl shadow-lg" src="/images/rejemax-pro/section-05-main.webp" />
               </div>
               <div className="flex-1">
                 <p className="text-gray-700 text-sm md:text-base leading-relaxed mb-4">空気圧振動波で血流環境と反応力にアプローチし、血流環境と反応力を改善する画期的なケア法です。</p>
@@ -182,14 +182,14 @@ export default function MechanismSection() {
               <h4 className="text-base md:text-lg font-bold text-gray-900 mb-4 text-center">施術前後の血管変化</h4>
               <div className="flex flex-col md:flex-row items-center justify-center gap-3">
                 <div className="text-center">
-                  <img alt="施術前" className="w-40 h-auto mx-auto rounded-lg shadow" src="https://rejemax-pro.com/wp-content/themes/linkjapan/assets/images/section-05/section-05-therapy-before.png" />
+                  <img alt="施術前" className="w-40 h-auto mx-auto rounded-lg shadow" src="/images/rejemax-pro/section-05-therapy-before.webp" />
                   <p className="mt-2 font-semibold text-gray-700 text-sm">施術前</p>
                 </div>
                 <div className="flex items-center justify-center">
-                  <img alt="→" className="w-12 h-auto" src="https://rejemax-pro.com/wp-content/themes/linkjapan/assets/images/section-05/section-05-therapy-arrow.png" />
+                  <img alt="→" className="w-12 h-auto" src="/images/rejemax-pro/section-05-therapy-arrow.webp" />
                 </div>
                 <div className="text-center">
-                  <img alt="施術後" className="w-40 h-auto mx-auto rounded-lg shadow" src="https://rejemax-pro.com/wp-content/themes/linkjapan/assets/images/section-05/section-05-therapy-after.png" />
+                  <img alt="施術後" className="w-40 h-auto mx-auto rounded-lg shadow" src="/images/rejemax-pro/section-05-therapy-after.webp" />
                   <p className="mt-2 font-semibold text-gray-700 text-sm">施術後</p>
                 </div>
               </div>

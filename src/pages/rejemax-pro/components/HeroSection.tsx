@@ -31,7 +31,7 @@ export default function HeroSection({ scrollToSection }: Props) {
         <div className="mb-8">
           <p className="text-yellow-400 text-sm md:text-base font-semibold tracking-widest uppercase mb-3">THE FUTURE OF MEN'S VITALITY</p>
           <div className="flex justify-center mb-4">
-            <img alt="REJEMAX PRO" className="h-16 md:h-28 w-auto object-contain" src="https://rejemax-pro.com/wp-content/themes/linkjapan/assets/images/section-00/section-00-logo.png" />
+            <img alt="REJEMAX PRO" className="h-16 md:h-28 w-auto object-contain" src="/images/rejemax-pro/section-00-logo.webp" />
           </div>
           <p className="text-base md:text-2xl lg:text-3xl text-gray-200 mb-3 font-light">医療技術が生んだ、根本からの画期的なコンディショニングケア</p>
           <p className="text-sm md:text-base text-yellow-400 font-semibold">日本の約1,800万人が抱える悩みに、革新的アプローチ</p>
@@ -64,7 +64,7 @@ export default function HeroSection({ scrollToSection }: Props) {
             <p className="text-white text-sm md:text-base leading-relaxed">空気圧振動波で血流環境と反応力にアプローチ<br className="md:hidden" />薬に頼らず、自然な形で機能を回復させる革新的ソリューション。</p>
           </div>
           <div className="flex-shrink-0">
-            <img alt="REJEMAX PRO 機器" className="h-48 md:h-72 w-auto object-contain" src="https://rejemax-pro.com/wp-content/themes/linkjapan/assets/images/section-00/section-00-machine.png" />
+            <img alt="REJEMAX PRO 機器" className="h-48 md:h-72 w-auto object-contain" src="/images/rejemax-pro/section-00-machine.webp" />
           </div>
         </div>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pb-16 sm:pb-0">

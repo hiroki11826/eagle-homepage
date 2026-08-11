@@ -135,7 +135,7 @@ export default function HomePage() {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
               <img
-                src="https://public.readdy.ai/ai/img_res/c1691ac3-1366-4306-8ac1-69a3d44108e2.png"
+                src="/images/chelma-logo.png"
                 alt="株式会社chelma Logo"
                 className="h-10 w-10 object-contain"
               />
@@ -243,7 +243,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="text-center lg:text-left scroll-animate opacity-0 translate-y-6 transition-all duration-800 ease-out">
               <img
-                src="https://static.readdy.ai/image/187ccc1d2e80119f96272c0b905b1f54/6933b63c46d0627dd34f03bf688e77da.png"
+                src="/images/owner-kumi.png"
                 alt="オーナーセラピスト KUMI"
                 className="w-full max-w-sm h-80 object-cover rounded-3xl shadow-2xl mx-auto lg:mx-0 object-[center_70%] lg:object-top transition-transform duration-500 ease-out hover:scale-105"
               />
@@ -272,7 +272,7 @@ export default function HomePage() {
                 <ul className="space-y-1.5 inline-block text-left">
                   <li className="flex items-center space-x-2 text-[#2B2B2B] text-base">
                     <i className="ri-checkbox-circle-fill text-yellow-500 text-base flex-shrink-0"></i>
-                    <span>月商350万円サロン運営実績あり</span>
+                    <span>月商530万円サロン運営実績あり</span>
                   </li>
                   <li className="flex items-center space-x-2 text-[#2B2B2B] text-base">
                     <i className="ri-checkbox-circle-fill text-yellow-500 text-base flex-shrink-0"></i>
@@ -503,7 +503,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex justify-center">
             <img
-              src="https://static.readdy.ai/image/187ccc1d2e80119f96272c0b905b1f54/6a9ffbd927b7992854d8eb589576f4f8.jpeg"
+              src="/images/eagle-logo.jpeg"
               alt="EAGLE Logo"
               className="w-64 md:w-96 h-auto object-contain"
             />
@@ -517,7 +517,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-16 items-start">
             <div className="relative h-full flex flex-col scroll-animate opacity-0 translate-y-6 transition-all duration-800 ease-out">
               <img
-                src="https://static.readdy.ai/image/187ccc1d2e80119f96272c0b905b1f54/d5c9b5e5f428ee1a0d2dbd60bbe93218.jpeg"
+                src="/images/eagle-machine.jpeg"
                 alt="EAGLE業務用脱毛機"
                 className="w-full rounded-3xl shadow-2xl object-contain transition-transform duration-500 ease-out hover:scale-105"
                 style={{ minHeight: '300px' }}
@@ -590,7 +590,7 @@ export default function HomePage() {
               {/* Before/After 1 */}
               <div className="flex justify-center">
                 <img
-                  src="https://static.readdy.ai/image/187ccc1d2e80119f96272c0b905b1f54/395fceda9d9917fb519651abc865bba3.png"
+                  src="/images/before-after-vline.png"
                   alt="施術前後 Vライン"
                   className="w-full max-w-md h-auto object-contain rounded-xl md:rounded-2xl border border-white shadow-lg transition-transform duration-500 ease-out hover:scale-105"
                 />
@@ -599,7 +599,7 @@ export default function HomePage() {
               {/* Before/After 2 */}
               <div className="flex justify-center">
                 <img
-                  src="https://static.readdy.ai/image/187ccc1d2e80119f96272c0b905b1f54/472a69734dae1ccbea50f04b287b3308.png"
+                  src="/images/before-after-beard.png"
                   alt="施術前後 髭"
                   className="w-full max-w-md h-auto object-contain rounded-xl md:rounded-2xl border border-white shadow-lg transition-transform duration-500 ease-out hover:scale-105"
                 />
@@ -629,7 +629,7 @@ export default function HomePage() {
               {/* 特典画像 */}
               <div className="mb-6 md:mb-10 scroll-animate opacity-0 translate-y-6 transition-all duration-800 ease-out">
                 <img
-                  src="https://static.readdy.ai/image/187ccc1d2e80119f96272c0b905b1f54/c68012ad2d1a875e307624949bdfdd0c.png"
+                  src="/images/benefits.png"
                   alt="5大特典"
                   className="w-full h-auto object-contain mx-auto"
                 />
@@ -637,14 +637,10 @@ export default function HomePage() {
 
               <div className="text-center scroll-animate opacity-0 translate-y-6 transition-all duration-800 ease-out delay-300">
                 <div className="bg-gray-100 rounded-3xl p-3 md:p-10 shadow-xl">
-                  <h3 className="text-base md:text-2xl font-bold text-gray-900 mb-2 md:mb-4">今だけの特別価格</h3>
                   <div className="flex flex-col md:flex-row justify-center items-center md:space-x-4 space-y-1 md:space-y-0 mb-2 md:mb-5">
-                    <span className="text-sm md:text-xl text-gray-500 line-through">通常価格 150万円</span>
-                    <i className="ri-arrow-right-line text-xl md:text-2xl text-yellow-500 hidden md:block"></i>
-                    <i className="ri-arrow-down-line text-xl md:text-2xl text-yellow-500 md:hidden"></i>
-                    <span className="text-lg md:text-3xl font-bold text-yellow-600">特別価格 120万円</span>
+                    <span className="text-lg md:text-3xl font-bold text-yellow-600">120万円（税込）</span>
                   </div>
-                  <p className="text-xs md:text-lg text-gray-600">5大特典付きでこの価格は期間限定です</p>
+                  <p className="text-xs md:text-lg text-gray-600">5大特典付き</p>
                 </div>
               </div>
             </div>
@@ -683,21 +679,16 @@ export default function HomePage() {
                   </div>
                   <div className="bg-gray-100 p-4 rounded-xl">
                     <div className="flex items-start space-x-3">
-                      <i className="ri-line-chart-line text-xl text-yellow-500"></i>
+                      <i className="ri-phone-line text-xl text-yellow-500"></i>
                       <div>
-                        <p className="text-base md:text-lg text-gray-800 font-medium leading-relaxed">
-                          7桁の売り上げを叩き出し続ける脱毛サロンオーナーによる
-                        </p>
-                        <p className="text-base md:text-lg text-gray-800 font-bold leading-relaxed">
-                          簡単集客ワークシート1時間コンサルサービス
-                        </p>
+                        <p className="text-base md:text-lg text-gray-800 font-bold leading-relaxed">購入後の電話相談随時受付</p>
                       </div>
                     </div>
                   </div>
                   <div className="bg-yellow-400 p-4 rounded-xl">
                     <div className="flex items-center space-x-3">
                       <i className="ri-phone-line text-xl text-black"></i>
-                      <p className="text-base md:text-lg text-black font-bold">購入後の電話相談随時受付</p>
+                      <a href="tel:0000000000" className="text-base md:text-lg text-black font-bold underline">購入後の電話相談随時受付</a>
                     </div>
                   </div>
                 </div>
@@ -710,7 +701,7 @@ export default function HomePage() {
                   機械見学可能
                 </div>
                 <img
-                  src="https://static.readdy.ai/image/187ccc1d2e80119f96272c0b905b1f54/276ca7fb0411c401f75ef8fc24e0ae61.jpeg"
+                  src="/images/machine-visit.jpeg"
                   alt="機械見学"
                   className="w-full h-48 object-contain rounded-xl mb-4"
                 />
@@ -739,7 +730,7 @@ export default function HomePage() {
               <div className="md:w-2/5 flex-shrink-0">
                 <div className="w-full h-64 md:h-full min-h-[280px]">
                   <img
-                    src="https://static.readdy.ai/image/187ccc1d2e80119f96272c0b905b1f54/440b31d51375b8a70cd2cb1fc5e02c6a.jpeg"
+                    src="/images/salon-reamica.jpeg"
                     alt="北堀江リアミカ"
                     className="w-full h-full object-cover object-center md:object-top"
                   />
@@ -793,7 +784,7 @@ export default function HomePage() {
               <div className="flex items-center justify-between mb-6">
                 <h3 className="text-lg md:text-xl font-bold text-gray-900">製品概要</h3>
                 <img
-                  src="https://static.readdy.ai/image/187ccc1d2e80119f96272c0b905b1f54/1d69446247223e88d4d183867c049bf3.jpeg"
+                  src="/images/product-overview.jpeg"
                   alt="EAGLE脱毛機"
                   className="w-20 h-20 object-contain"
                 />
@@ -824,7 +815,7 @@ export default function HomePage() {
               <div className="flex items-center justify-between mb-6">
                 <h3 className="text-lg md:text-xl font-bold text-gray-900">機能・効果</h3>
                 <img
-                  src="https://static.readdy.ai/image/187ccc1d2e80119f96272c0b905b1f54/16fff1ce95b3d938f9d5ca20365d0a41.png"
+                  src="/images/function-effect.png"
                   alt="施術イメージ"
                   className="w-20 h-20 object-cover rounded-lg"
                 />
@@ -856,7 +847,7 @@ export default function HomePage() {
               <div className="flex items-center justify-between mb-6">
                 <h3 className="text-lg md:text-xl font-bold text-gray-900">付属品・交換</h3>
                 <img
-                  src="https://static.readdy.ai/image/187ccc1d2e80119f96272c0b905b1f54/f66596225c5102de8ae373c1e428ceff.png"
+                  src="/images/accessories.png"
                   alt="付属品"
                   className="w-20 h-20 object-contain"
                 />
@@ -903,7 +894,11 @@ export default function HomePage() {
                       <p className="font-medium text-gray-900 leading-relaxed">ハンドピース1本追加購入 ¥300,000（税込）</p>
                     </li>
                     <li>
-                      <p className="font-medium text-gray-900 leading-relaxed">スポット照射（鼻毛・耳毛・眉毛回り）先端 ¥55,000（税込）</p>
+                      <p className="font-medium text-gray-900 leading-relaxed">スポット照射（鼻毛・耳毛・眉毛回り）先端（税込）</p>
+                      <ul className="mt-1 ml-3 space-y-0.5 text-sm text-gray-700">
+                        <li>・機械購入サロン：¥150,000（税込）</li>
+                        <li>・機械未購入サロン：¥300,000（税込）</li>
+                      </ul>
                     </li>
                   </ul>
                 </div>
@@ -1038,6 +1033,8 @@ export default function HomePage() {
                     ※本プランは「機器導入＋基本技術サポート」のみの<br />
                     シンプル導入プランになります。
                   </p>
+                  <p className="text-sm text-gray-600 mt-2 leading-relaxed">※リースの場合は伴走支援は含まれません。</p>
+                  <p className="text-xs text-gray-500 mt-1 leading-relaxed">※リース機器は必ずしも新品とは限りません。</p>
                 </div>
               </div>
             </div>
@@ -1131,7 +1128,7 @@ export default function HomePage() {
                   </div>
                   <div className="bg-yellow-50 rounded-xl p-3 text-center border border-yellow-100">
                     <p className="text-xs text-gray-500 mb-1">回数</p>
-                    <p className="text-sm md:text-base font-bold text-gray-900 leading-tight"><span className="text-yellow-600">月2回</span></p>
+                    <p className="text-sm md:text-base font-bold text-gray-900 leading-tight"><span className="text-yellow-600">月1回</span></p>
                   </div>
                   <div className="bg-yellow-50 rounded-xl p-3 text-center border border-yellow-100">
                     <p className="text-xs text-gray-500 mb-1">時間</p>
@@ -1149,8 +1146,8 @@ export default function HomePage() {
                   <div className="flex items-start space-x-3 bg-gray-50 rounded-xl p-4">
                     <i className="ri-store-line text-yellow-500 text-lg flex-shrink-0 mt-0.5"></i>
                     <div>
-                      <p className="text-sm font-bold text-gray-900 mb-1">サロン運営コンサルティング</p>
-                      <p className="text-sm text-gray-600 leading-relaxed">売上改善・マネジメントで黒字経営をサポート</p>
+                      <p className="text-sm font-bold text-gray-900 mb-1">集客運用サポート（新規、リピート戦略）</p>
+                      <p className="text-sm text-gray-600 leading-relaxed">運営サポートで黒字経営をサポート</p>
                     </div>
                   </div>
                 </div>
@@ -1177,9 +1174,10 @@ export default function HomePage() {
                   <div className="bg-gray-50 rounded-xl p-4">
                     <div className="flex items-center space-x-2 mb-2">
                       <i className="ri-focus-3-line text-yellow-500 text-base"></i>
-                      <span className="text-sm font-bold text-gray-900">スポット照射（消耗対応）</span>
+                      <span className="text-sm font-bold text-gray-900">スポット照射（税込）</span>
                     </div>
-                    <p className="text-lg font-bold text-yellow-600">¥55,000<span className="text-xs text-gray-500 font-normal ml-1">（税込・別途）</span></p>
+                    <p className="text-sm text-gray-700 leading-relaxed">・機械購入サロン：¥150,000（税込）</p>
+                    <p className="text-sm text-gray-700 leading-relaxed">・機械未購入サロン：¥300,000（税込）</p>
                   </div>
                   <div className="bg-gray-50 rounded-xl p-4">
                     <div className="flex items-center space-x-2 mb-2">
@@ -1286,7 +1284,7 @@ export default function HomePage() {
             <div>
               <div className="flex items-center space-x-2 mb-6">
                 <img
-                  src="https://public.readdy.ai/ai/img_res/c1691ac3-1366-4306-8ac1-69a3d44108e2.png"
+                  src="/images/chelma-logo.png"
                   alt="株式会社chelma Logo"
                   className="h-10 w-10 object-contain"
                   style={{ filter: 'drop-shadow(0 0 2px rgba(255, 255, 255, 0.3))' }}
@@ -1424,7 +1422,7 @@ export default function HomePage() {
                 <div className="p-4 md:p-8 text-center">
                   <div className="bg-gray-50 rounded-xl md:rounded-2xl p-4 md:p-8 mb-4 md:mb-6">
                     <img
-                      src="https://static.readdy.ai/image/187ccc1d2e80119f96272c0b905b1f54/0197ca49fa315f338bdbe26289ba2e0b.png"
+                      src="/images/line-qr.png"
                       alt="LINE QRコード"
                       className="w-48 h-48 md:w-80 md:h-80 object-contain mx-auto rounded-lg md:rounded-xl border-2 border-gray-200"
                     />
