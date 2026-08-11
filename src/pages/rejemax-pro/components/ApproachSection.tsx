@@ -148,7 +148,7 @@ export default function ApproachSection() {
                     { label: '電源', value: 'AC100V 50/60Hz' },
                     { label: '出力周波数', value: '1〜20Hz' },
                     { label: '衝撃波強度', value: '0.09〜0.25mJ/mm²' },
-                    { label: '適応部位', value: '男性のデリケートゾーン' },
+                    { label: '適応部位', value: '男性のデリケートゾーン・全身対応' },
                   ].map((spec, i) => (
                     <div key={i} className="flex justify-between items-center py-2 border-b border-gray-200">
                       <span className="text-gray-600 text-sm font-medium">{spec.label}</span>
