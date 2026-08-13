@@ -688,7 +688,7 @@ export default function HomePage() {
                   <div className="bg-yellow-400 p-4 rounded-xl">
                     <div className="flex items-center space-x-3">
                       <i className="ri-phone-line text-xl text-black"></i>
-                      <a href="tel:0000000000" className="text-base md:text-lg text-black font-bold underline">購入後の電話相談随時受付</a>
+                      <a href="tel:08061577520" className="text-base md:text-lg text-black font-bold underline">購入後の電話相談随時受付</a>
                     </div>
                   </div>
                 </div>
@@ -1452,6 +1452,24 @@ export default function HomePage() {
                     >
                       <i className="ri-user-add-line text-xl md:text-2xl"></i>
                       友だち追加はこちら
+                    </a>
+
+                    <a
+                      href="tel:08061577520"
+                      className="
+                        inline-flex items-center justify-center gap-2
+                        w-48 md:w-80
+                        py-4 md:py-5
+                        bg-yellow-400 hover:bg-yellow-500
+                        text-gray-900 font-bold text-base md:text-lg
+                        rounded-xl md:rounded-2xl
+                        shadow-md hover:shadow-lg
+                        transition-all duration-300 ease-out
+                        cursor-pointer
+                      "
+                    >
+                      <i className="ri-phone-line text-xl md:text-2xl"></i>
+                      購入後の電話相談はこちら
                     </a>
                     
                     <div className="bg-[#00B900]/10 border border-[#00B900]/20 rounded-lg md:rounded-xl p-3 md:p-4">
