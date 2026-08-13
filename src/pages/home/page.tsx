@@ -1451,7 +1451,7 @@ export default function HomePage() {
                       "
                     >
                       <i className="ri-user-add-line text-xl md:text-2xl"></i>
-                      友だち追加はこちら
+                      友だち追加
                     </a>
 
                     <a
@@ -1469,7 +1469,7 @@ export default function HomePage() {
                       "
                     >
                       <i className="ri-phone-line text-xl md:text-2xl"></i>
-                      購入後の電話相談はこちら
+                      購入後の電話相談
                     </a>
                     
                     <div className="bg-[#00B900]/10 border border-[#00B900]/20 rounded-lg md:rounded-xl p-3 md:p-4">
