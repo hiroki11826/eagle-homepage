@@ -525,7 +525,7 @@ export default function HomePage() {
               <img
                 src="/images/eagle-machine.jpeg"
                 alt="EAGLE業務用脱毛機"
-                className="w-full rounded-3xl shadow-2xl object-contain transition-transform duration-500 ease-out hover:scale-105"
+                className="w-full rounded-3xl shadow-2xl object-contain transition-transform duration-500 ease-out hover:scale-105 mt-6 md:mt-8"
                 style={{ minHeight: '300px' }}
               />
             </div>
