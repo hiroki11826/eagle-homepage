@@ -517,6 +517,12 @@ export default function HomePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-16 items-start">
             <div className="relative h-full flex flex-col scroll-animate opacity-0 translate-y-6 transition-all duration-800 ease-out">
               <img
+                src="/images/eagle-machine-white.jpeg"
+                alt="EAGLE業務用脱毛機（ホワイト）"
+                className="w-full rounded-3xl shadow-2xl object-contain transition-transform duration-500 ease-out hover:scale-105"
+                style={{ minHeight: '300px' }}
+              />
+              <img
                 src="/images/eagle-machine.jpeg"
                 alt="EAGLE業務用脱毛機"
                 className="w-full rounded-3xl shadow-2xl object-contain transition-transform duration-500 ease-out hover:scale-105"
@@ -636,12 +642,6 @@ export default function HomePage() {
               </div>
 
               <div className="text-center scroll-animate opacity-0 translate-y-6 transition-all duration-800 ease-out delay-300">
-                <div className="bg-gray-100 rounded-3xl p-3 md:p-10 shadow-xl">
-                  <div className="flex flex-col md:flex-row justify-center items-center md:space-x-4 space-y-1 md:space-y-0 mb-2 md:mb-5">
-                    <span className="text-lg md:text-3xl font-bold text-yellow-600">120万円（税込）</span>
-                  </div>
-                  <p className="text-xs md:text-lg text-gray-600">5大特典付き</p>
-                </div>
               </div>
             </div>
           </section>
@@ -676,14 +676,6 @@ export default function HomePage() {
                   <div className="flex items-start space-x-3">
                     <i className="ri-user-star-line text-xl text-yellow-500 flex-shrink-0 mt-1"></i>
                     <p className="text-base md:text-lg text-gray-800 leading-relaxed">カウンセリング指導、シート作成サービス</p>
-                  </div>
-                  <div className="bg-gray-100 p-4 rounded-xl">
-                    <div className="flex items-start space-x-3">
-                      <i className="ri-phone-line text-xl text-yellow-500"></i>
-                      <div>
-                        <p className="text-base md:text-lg text-gray-800 font-bold leading-relaxed">購入後の電話相談随時受付</p>
-                      </div>
-                    </div>
                   </div>
                   <div className="bg-yellow-400 p-4 rounded-xl">
                     <div className="flex items-center space-x-3">
@@ -1136,13 +1128,6 @@ export default function HomePage() {
                   </div>
                 </div>
                 <div className="space-y-3">
-                  <div className="flex items-start space-x-3 bg-gray-50 rounded-xl p-4">
-                    <i className="ri-instagram-line text-yellow-500 text-lg flex-shrink-0 mt-0.5"></i>
-                    <div>
-                      <p className="text-sm font-bold text-gray-900 mb-1">SNS運用サポート</p>
-                      <p className="text-sm text-gray-600 leading-relaxed">集客設計・投稿アドバイスで効果的な集客を実現</p>
-                    </div>
-                  </div>
                   <div className="flex items-start space-x-3 bg-gray-50 rounded-xl p-4">
                     <i className="ri-store-line text-yellow-500 text-lg flex-shrink-0 mt-0.5"></i>
                     <div>
